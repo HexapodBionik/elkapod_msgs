@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LegFrames.msg"
   "msg/LegPositions.msg"
   "msg/TrajectoryParameters.msg"
+  "msg/TouchSensorArrayStamped.msg"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
