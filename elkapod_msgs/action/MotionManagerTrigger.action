@@ -1,5 +1,9 @@
+# Goal
+string transition   # init, stand_up, lower
 ---
-float64 status
----
+# Result
 bool success   # indicate successful run of triggered service
 string message # informational, e.g. for error messages
+---
+# Feedback
+float64 status
